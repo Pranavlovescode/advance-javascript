@@ -18,7 +18,7 @@ person.greet();
 function Person1(name,age){
     this.name = name;
     this.age = age;
-    this.getDetails = function(){
+    this.getDetails = ()=>{
         return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
     }
 }
