@@ -18,3 +18,8 @@ var obj ={
 }
 var {name:n,age,city,weight:w} = obj;
 console.log(n,age,city,w);
+
+
+var fruits = ["🍎", "🍌", "🍍"];
+var [apple, banana, pineapple] = fruits;
+console.log(apple, banana, pineapple); // "🍎", "🍌", "🍍"
