@@ -16,5 +16,5 @@ var obj ={
     height:6.1,
     status:"single"
 }
-var {name,age,city,weight} = obj;
-console.log(name,age,city,weight);
+var {name:n,age,city,weight:w} = obj;
+console.log(n,age,city,w);
