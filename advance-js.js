@@ -129,7 +129,7 @@ function funcIterator(values){
     var index = 0;
     return{
         next:function () {
-            if(index<values.length>0){
+            if(index<values.length){
                 return{
                     value:values[index++],
                     done:false 
